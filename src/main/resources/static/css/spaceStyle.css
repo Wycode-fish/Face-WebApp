@@ -1,0 +1,42 @@
+.margin_left_4{
+    margin-left: 4px;
+}
+.margin_right_4{
+    margin-right: 4px;
+}
+.margin_top_4{
+    margin-top: 4px;
+}
+.margin_bottom_4{
+    margin-bottom: 4px;
+}
+
+.padding_bottom_4{
+    padding-bottom: 4px;
+}
+
+.span_with_label{
+    display: inline-block;
+    width: 74px;
+}
+.div_with_full{
+    width: 100%;
+}
+.div_with_99{
+    width: 99%;
+}
+.div_height_full{
+    height: 100%;
+}
+
+.div_height_90{
+    height: 90%;
+}
+
+.div_height_85{
+    height: 85%;
+}
+
+.div_overflow_auto{
+    overflow: auto;
+}

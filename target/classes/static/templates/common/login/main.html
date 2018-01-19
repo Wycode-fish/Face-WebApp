@@ -1,0 +1,55 @@
+<div class="div_back">
+    <img src="asster/bg_pic.png" style="position: absolute">
+    <img src="asster/bg2.png" style="position: absolute; margin-top: 458px; z-index: -1; height: 485px; width: 1180px">
+    <div style="background-image: url('asster/tit_bg.png')">
+        <img src="asster/title.png" style="margin-top: 10px; margin-left: 30px">
+    </div>
+    <div>
+        <div style="width: 410px; margin: auto">
+            <img src="asster/big_pic_drop.png" style="position: absolute; margin-top: 10px">
+        </div>
+        <div style="width: 225px; margin-top: 80px; margin-left: 335px;">
+            <img id="5p" src="asster/5.png" style="position: absolute; margin-top: 0px" ng-click="setPointType('5p')">
+            <img id="25p" src="asster/25.png" style="position: absolute; margin-top: 45px"
+                 ng-click="setPointType('25p')">
+            <img id="83p" src="asster/83_click.png" style="position: absolute; margin-top: 90px"
+                 ng-click="setPointType('83p')">
+        </div>
+        <div style="width: 225px; margin-top: 80px; margin-left: 850px; position: absolute">
+            <div style="background-image: url('asster/search_bg.png');width: 220px;height: 30px">
+                <h5 style="position: absolute; margin-left: 15px; color: #9d9d9d">本地浏览</h5>
+                <input id="fileInput" type="file" file-model="myFile" style="display: none"/>
+                <img onclick="fileInput.click()" src="asster/search_1.png" style="margin-top: 5px; margin-left: 190px"
+                     onmousemove="this.src='asster/search_2.png'" onmouseout="this.src='asster/search_1.png'"/>
+            </div>
+            <!--<img ng-click="uploadFile()" style="margin-top: 10px; margin-left: 10px " src="asster/click_1.png"-->
+            <!--onmousemove="this.src='asster/click_2.png'" onmouseout="this.src='asster/click_1.png'"/>-->
+        </div>
+        <div style="width: 430px; margin: auto">
+            <div style="margin-top: 90px;margin-right: 10px">
+                <img ng-src="{{imageSrc}}" style="position:absolute;width:410px;height:410px;border-color: #9acfea"/>
+                <div id="drawContain" style="width:410px;height:410px; border:1px solid dimgray"></div>
+            </div>
+        </div>
+    </div>
+    <div style="width: 33px; margin: auto">
+        <img src="asster/triangle.png" style="margin-top: 30px">
+    </div>
+    <div style="margin-top: 30px; margin-left: 50px">
+        <img src="imgs/1.jpg" style="width:150px;height:150px" ng-click="imgClick()"/>
+        <img src="imgs/2.jpg" style="width:150px;height:150px" ng-click="imgClick()"/>
+        <img src="imgs/3.jpg" style="width:150px;height:150px" ng-click="imgClick()"/>
+        <img src="imgs/4.jpg" style="width:150px;height:150px" ng-click="imgClick()"/>
+        <img src="imgs/5.jpg" style="width:150px;height:150px" ng-click="imgClick()"/>
+        <img src="imgs/6.jpg" style="width:150px;height:150px" ng-click="imgClick()"/>
+        <img src="imgs/7.jpg" style="width:150px;height:150px" ng-click="imgClick()"/>
+    </div>
+    <div style="margin-top:6px;width:1180px;height:170px;overflow-x:scroll;white-space:nowrap;overflow-y: hidden">
+        <div id="imgDiv" style="display: inline"></div>
+    </div>
+    <div style="background-color:darkgrey; width:1180px; height: 36px; position: absolute; margin-top: 0px">
+        <div style="text-align: center; margin-top:6px">
+            <h5>清华大学数字医疗健康工程研究中心</h5>
+        </div>
+    </div>
+</div>

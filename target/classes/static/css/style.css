@@ -1,0 +1,19 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.div_back{
+    height: 100%;
+    width: 1180px;
+    margin: auto;
+}
+.point{
+    width: 6px;
+    height: 6px;
+    background: #00b4ff;
+    position: absolute;
+    border-radius: 3px;
+}
+
+
+
